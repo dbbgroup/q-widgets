@@ -1,6 +1,7 @@
 var getRoot = document.getElementById('root');
-let captcha = document.getElementById('qwidgets-captcha');
+var rootElem = document.querySelector('#qwidgets-captcha');
 
 var container = document.createElement('div');
-container.className = 'qwg__captcha-container';
-captcha.appendChild(container);
+container.className = "qw__captcha-container";
+rootElem.appendChild(container);
+
