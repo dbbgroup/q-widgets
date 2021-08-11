@@ -1,3 +1,3 @@
-let getRoot = document.getElementById('root');
+var getRoot = document.getElementById('root');
 let ads = document.getElementById('qwidgets-ads');
 
