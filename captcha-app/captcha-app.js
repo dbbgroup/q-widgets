@@ -1,6 +1,7 @@
-const getRoot = document.getElementById('root');
-const captcha = document.getElementById('qwidgets-captha');
+let getRoot = document.getElementById('root');
+let captcha = document.getElementById('qwidgets-captha');
 
-const container = document.createElement('div');
-container.classList.add('qwg__captcha-container');
+let container = document.createElement('div');
+container.сlassName = 'qwg__captcha-container';
 document.body.appendChild(container);
+
